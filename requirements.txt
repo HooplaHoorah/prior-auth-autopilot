@@ -1,0 +1,27 @@
+# Prior Auth Autopilot — Python Dependencies
+# Install: pip install -r requirements.txt
+
+# MCP Server
+fastmcp>=0.9.0
+
+# AWS Lambda adapter for FastMCP HTTP transport
+mangum>=0.17.0
+
+# AWS SDK (Lambda invoke, Bedrock)
+boto3>=1.34.0
+
+# FHIR HTTP calls
+requests>=2.31.0
+
+# Type hints (Python 3.11+)
+typing-extensions>=4.8.0
+
+# Development / testing only
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+
+# Optional: Prompt Opinion SHARP Extension SDK
+# sharp-extension>=1.0.0  # Install from Prompt Opinion marketplace
+
+# Docker / HAPI FHIR (not a Python dep — run separately)
+# docker run -p 8080:8080 hapiproject/hapi:r4
